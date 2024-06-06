@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wl,--whole-archive "/workspaces/demo_1/.build/cpptest-runtime/libcpptest_static.a" -Wl,--no-whole-archive CMakeFiles/goo_test.dir/goo_test.cpp.o CMakeFiles/goo_test.dir/goo.cpp.o -o goo_test  lib/libgtest_main.a lib/libgtest.a -lpthread 

@@ -1,0 +1,95 @@
+# 1 "/workspaces/demo_1/goo.cpp"
+
+#define CPPTEST_INSTRUMENTATION
+
+#include <cpptest/instrumentation.h>
+
+
+
+struct __CPTR_Dummy_Type {
+    char nonEmpty;
+};
+
+
+
+
+struct __CPTR_Finalizer_996452068_1454_2732355
+{
+    __CPTR_Finalizer_996452068_1454_2732355()
+    {
+        cpptestAutoFinalizerConstructor();
+    }
+
+    ~__CPTR_Finalizer_996452068_1454_2732355()
+    {
+        cpptestAutoFinalizerDestructor();
+    }
+};
+
+
+
+
+
+#define _coverage_data_unit_size 0
+    
+
+
+#define _coverage_code_size (1 + (25) / (sizeof(unsigned char) * 8))
+#define _coverage_func_data_offset 24
+
+static unsigned char _coverage_code[_coverage_code_size];
+
+EXTERN_C_LINKAGE_START
+CppTestCoverageInfo __CPTR_cui_996452068_1454_2732355 = 
+{
+    /*id=*/0U,
+    /*externalId=*/{228, 166, 174, 5, 0, 0, 0, 0}, 
+    /*idAssociationWasSent=*/0,
+    /*prev=*/0, 
+    /*covDataUnitSize=*/_coverage_data_unit_size,
+    /*data=*/(unsigned char*)_coverage_code,
+    /*size=*/_coverage_code_size * sizeof(char), 
+    /*funcDataOffset=*/_coverage_func_data_offset,
+    /*flags=*/0
+    | CPPTEST_COVERAGE_INITIALIZE_BUFFERS_FLAG
+};
+EXTERN_C_LINKAGE_END
+
+#define __CPTR_cui &__CPTR_cui_996452068_1454_2732355
+
+
+#define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
+static 
+const char* _cpptest_strdata[] = {
+    0,
+    "",
+    0
+};
+#undef unix
+#undef __unix
+# 1 "/workspaces/demo_1/goo.h"
+int getValue(int a, int b); 
+# 3 "/workspaces/demo_1/goo.cpp"
+int getValue(int a, int b) 
+{ unsigned int _CppTest_funcId = cpptestCoverageFunction(__CPTR_cui, 1);
+if (((void)cpptestCoverageStmt(1U, 1 + 0, __CPTR_cui, 1), cpptestCoverageCond(((a > 0)), 1, 1 + 13, 1 + 14, __CPTR_cui, _CppTest_funcId, 1) && cpptestCoverageCond(((b > 0)), 2, 1 + 15, 1 + 16, __CPTR_cui, _CppTest_funcId, 1))) { cpptestCoverageBlock(2, 1 + 6, __CPTR_cui, _CppTest_funcId, 1);cpptestCoverageStmt(2U, 1 + 0, __CPTR_cui, 1);
+return a * b; 
+}  
+
+if (((void)cpptestCoverageBlock(4, 1 + 6, __CPTR_cui, _CppTest_funcId, 1), ((void)cpptestCoverageStmt(3U, 1 + 0, __CPTR_cui, 1), (bool)cpptestCoverageCond((a > 0), 3, 1 + 17, 1 + 18, __CPTR_cui, _CppTest_funcId, 1)))) { cpptestCoverageBlock(5, 1 + 6, __CPTR_cui, _CppTest_funcId, 1);cpptestCoverageStmt(4U, 1 + 0, __CPTR_cui, 1);
+return a; 
+} else { cpptestCoverageBlock(7, 1 + 6, __CPTR_cui, _CppTest_funcId, 1);cpptestCoverageStmt(5U, 1 + 0, __CPTR_cui, 1);
+return b; 
+}  cpptestCoverageStmt(6U, 1 + 0, __CPTR_cui, 1);
+
+return 0; 
+} 
+#line 1 "__TEST_HARNESS__"
+;
+
+
+#if CPPTEST_USE_GLOBAL_AUTO_FINALIZER
+static __CPTR_Finalizer_996452068_1454_2732355 __CPTR_finalizer;
+#endif
+
+

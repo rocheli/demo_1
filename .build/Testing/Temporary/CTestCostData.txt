@@ -1,3 +1,3 @@
-GooTest.TestGetValueWithZero 4 0.00343907
-GooTest.TestGetValueWithPositive 4 0.00327934
+GooTest.TestGetValueWithZero 8 0.00227192
+GooTest.TestGetValueWithPositive 8 0.0017488
 ---

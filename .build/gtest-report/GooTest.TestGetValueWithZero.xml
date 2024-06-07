@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.024" timestamp="2024-06-06T21:48:13.170" name="AllTests">
-  <testsuite name="GooTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2024-06-06T21:48:13.194">
-    <testcase name="TestGetValueWithZero" status="run" result="completed" time="0" timestamp="2024-06-06T21:48:13.194" classname="GooTest">
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.007" timestamp="2024-06-07T07:36:17.312" name="AllTests">
+  <testsuite name="GooTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2024-06-07T07:36:17.313">
+    <testcase name="TestGetValueWithZero" status="run" result="completed" time="0.006" timestamp="2024-06-07T07:36:17.313" classname="GooTest">
 <properties>
 <property name="cpptest_filename" value="/workspaces/demo_1/goo_test.cpp"/>
 <property name="req" value="REQ-123-ZERO"/>

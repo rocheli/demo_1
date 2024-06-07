@@ -1,5 +1,0 @@
-if(EXISTS "/workspaces/demo_1/.build/goo_test[1]_tests.cmake")
-  include("/workspaces/demo_1/.build/goo_test[1]_tests.cmake")
-else()
-  add_test(goo_test_NOT_BUILT goo_test_NOT_BUILT)
-endif()

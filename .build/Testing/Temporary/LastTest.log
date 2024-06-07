@@ -1,10 +1,10 @@
-Start testing: Jun 06 21:40 UTC
+Start testing: Jun 06 21:48 UTC
 ----------------------------------------------------------
 1/2 Testing: GooTest.TestGetValueWithZero
 1/2 Test: GooTest.TestGetValueWithZero
 Command: "/workspaces/demo_1/.build/goo_test" "--gtest_filter=GooTest.TestGetValueWithZero" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/workspaces/demo_1/.build/gtest-report/GooTest.TestGetValueWithZero.xml"
 Directory: /workspaces/demo_1/.build
-"GooTest.TestGetValueWithZero" start time: Jun 06 21:40 UTC
+"GooTest.TestGetValueWithZero" start time: Jun 06 21:48 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspaces/demo_1/.build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -17,13 +17,13 @@ Note: Google Test filter = GooTest.TestGetValueWithZero
 [----------] 1 test from GooTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (24 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"GooTest.TestGetValueWithZero" end time: Jun 06 21:40 UTC
+"GooTest.TestGetValueWithZero" end time: Jun 06 21:48 UTC
 "GooTest.TestGetValueWithZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/2 Test: GooTest.TestGetValueWithPositive
 Command: "/workspaces/demo_1/.build/goo_test" "--gtest_filter=GooTest.TestGetValueWithPositive" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/workspaces/demo_1/.build/gtest-report/GooTest.TestGetValueWithPositive.xml"
 Directory: /workspaces/demo_1/.build
-"GooTest.TestGetValueWithPositive" start time: Jun 06 21:40 UTC
+"GooTest.TestGetValueWithPositive" start time: Jun 06 21:48 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspaces/demo_1/.build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -41,17 +41,17 @@ Note: Google Test filter = GooTest.TestGetValueWithPositive
 [----------] 1 test from GooTest
 [ RUN      ] GooTest.TestGetValueWithPositive
 [       OK ] GooTest.TestGetValueWithPositive (0 ms)
-[----------] 1 test from GooTest (1 ms total)
+[----------] 1 test from GooTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"GooTest.TestGetValueWithPositive" end time: Jun 06 21:40 UTC
+"GooTest.TestGetValueWithPositive" end time: Jun 06 21:48 UTC
 "GooTest.TestGetValueWithPositive" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 06 21:40 UTC
+End testing: Jun 06 21:48 UTC
